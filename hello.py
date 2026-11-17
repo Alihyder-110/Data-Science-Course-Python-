@@ -48,9 +48,18 @@ t1.count('one')
 
 #sets
 x= set()
-x.add(1)
+x.add('ali')
 x.add(2)
 print(x)
+
+# Lists
+# Matrix List
+lst1 = [1,2,3]
+lst2 = [4,5,6]
+lst3 = [7,8,9]
+mtx = [lst1,lst2,lst3]
+print(mtx)
+print(mtx[1][1])
 
 # LOOPS
 seq = [1, 2, 3, 4, 5]
@@ -159,4 +168,5 @@ def addEvenOnly():
 
 x = addEvenOnly()
 print(x)
+
 
